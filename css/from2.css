@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: rgb(187, 255, 255);
+}
+.aaa {
+    color: green;
+    border-bottom: solid 3px #0267ff;
+}
+.naiyou{
+    background-color: #ffffff;
+    margin: 10px 400px 200px 400px;
+    border: 1px solid #656565;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: left;
+}
+.hissu{
+    background-color: hsl(27, 100%, 50%);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.kage{
+    box-shadow: 2px 2px 4px 0 rgb(88, 88, 88);
+    border-radius: 5px;
+}
+.size{
+    width: 100%;
+}
+.old{
+    text-align: center;
+}
+.footer{
+    border-top: solid 3px #0267ff;
+}

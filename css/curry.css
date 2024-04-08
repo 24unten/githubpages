@@ -1,0 +1,21 @@
+body {
+    background-image: url(image/bg_Argyle.jpg);
+}
+.image{
+    border: double red 10px;
+ }
+ 
+.img-box {
+    text-align:center;
+}
+caption {
+    color: red;
+}
+table{
+    background-color: #ffffe0;
+    border-color: red;
+}
+.flex {
+    display: flex; 
+    text-align: left;
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lamg="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>from2</title>
+        <link rel="stylesheet" href="css/from2.css">
+    </head>
+    <body>
+      <p class="aaa">アンケート</p>
+      <div class="naiyou">
+        <p>Axizの研修をご利用いただき、誠にありがとうございます。<br>
+        以下の内容の記入及び送信をして頂けると幸いです。</p>
+        <p>会社名  <span class="hissu">必須</span>
+             <input class="kage size" type="text" name="name" placeholder="例)株式会社テクノコア"><br>
+        </p>
+        <p>お名前  <span class="hissu">必須</span>
+             <input class="kage size" type="text" name="name" placeholder="例)手久野 興亜"><br>
+        </p>
+        <p>メールアドレス
+             <input class="kage size" type="text" name="name" placeholder="例)example@axiz.co.jp"><br>
+        </p>
+        <p>年齢<br>
+             <input class="kage old" size="5" type="text" name="name" class="old" value="23"><br>
+        </p>
+        <p>受講コース<br>
+          <label>
+          <input type="radio" name="course" value="male" checked>Java</label>
+          <label>
+          <input type="radio" name="course" value="female">インフラ</label>
+       </p>
+        <p>会場<br>
+          <select name="会場" class="kage size">
+                 <option value="A" selected >日本橋A教室</option>
+                 <option value="B">大森B教室</option>
+                 <option value="C">馬込C教室</option>
+          </select>
+       </p>
+        詳しく学びたい内容(複数回答可)<br>
+          <div><label>
+             <input type="checkbox" name="test" value="check" >ビジネスマナー</label>
+          </div>
+          <div><label>
+             <input type="checkbox" name="test" value="check" >HTML/CSS</label>
+          </div>
+          <div> <label>
+             <input type="checkbox" name="test" value="check" >JavaScript</label>
+          </div>
+          <div> <label>
+             <input type="checkbox" name="test" value="check" >Java</label>
+          </div>
+          <div><label>
+             <input type="checkbox" name="test" value="check" >データベース</label>
+          </div>
+          <div><label>
+             <input type="checkbox" name="test" value="check" >Linux</label>
+          </div>
+        <p>ご意見<br>
+          <textarea class="kage size" name="free" rows="10" cols="70">ご自由にご記入ください。</textarea>
+        </p>
+        <p><button type="submit">送信する</button></p>
+    </div>
+      <footer class="footer">Copyright(C)AxiZ</footer>
+     </body>
+</html>
